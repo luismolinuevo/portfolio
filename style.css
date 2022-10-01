@@ -17,6 +17,7 @@ body {
 .container {
     display: flex;
     flex-direction: column;
+    width: 100%;   /*this fixed the navbar issue of not going through the entire screen*/
 }
 
 /*Side Bar*/
@@ -52,9 +53,7 @@ aside a {
 
 nav {
     display: flex;
-    width: 100vw;
     background-color: #252526;
-    
     /* border-bottom: 1px white solid; */
 }
 
@@ -75,4 +74,16 @@ nav ul li a {
     font-size: 20px;
 }
 
+nav ul li a:active {
+    background-color: white;
+}
+
+.intro {
+    padding: 150px;
+    font-size: 30px;
+}
+
+.about {
+    padding-top: 45px;
+}
 
