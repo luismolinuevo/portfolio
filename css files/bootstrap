@@ -1,0 +1,13 @@
+What is Bootstrap? Bootstrap is a free, open source front-end development framework for the creation of websites and web apps. 
+Designed to enable responsive development of mobile-first websites, Bootstrap provides a collection of syntax for template designs. I used bootstrap before and its like css grid. 
+It can be used for making sites reponsive and its pretty easy. The way that it works is that every row has 12 spaces. And you can set things to take up these 12 spaces.
+ For example <img col-6> will set the img take up half the page. 
+ You could also do col-md-3. This will take up 3 spaces on a medium screen. It allows you to make reponsive websites easy.
+
+Overall, Bootstrap is not hard to learn. 
+Its simplicity has made Bootstrap the most used CSS framework in the world and 86% of developers stating they would continue using it. 
+Bootstrap is easy to use, has excellent documentation, and has fantastic community support.
+
+https://getbootstrap.com/
+https://developerpitstop.com/is-bootstrap-hard-to-learn/
+https://www.techtarget.com/whatis/definition/bootstrap
