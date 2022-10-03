@@ -87,3 +87,77 @@ nav ul li a:active {
     padding-top: 45px;
 }
 
+/*skills*/
+
+.heading {
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 45px;
+}
+
+#skills {
+    padding: 20px 0px;
+    color: white;
+}
+
+
+#skills h3 {
+    color:orange;
+    font-size: 35px;
+}
+
+.skillscontain {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#skills ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    font-size: 30px;
+}
+
+.other {
+    text-align: center;
+}
+
+/*Projects*/
+
+.projects {
+    height: auto;
+    padding: 20px 0px;
+}
+
+.project-container h3{
+    color:#cc3300;
+    padding: 5px;
+}
+
+.project-container p{
+    color:white;
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /*makes it wrap on smaller screens*/
+    box-sizing: border-box;
+}
+
+.project-div {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 450px;
+    /* border: 1px solid black; */
+    border: 1px solid white;
+    margin: 10px;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;  /*makes border corner circle*/
+    /* background: linear-gradient(to top, rgb(255, 45, 45) 50%, white 50%); */
+    background-size: 100% 200%;
+}
