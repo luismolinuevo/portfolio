@@ -131,7 +131,7 @@ nav ul li a:active {
 }
 
 .project-container h3{
-    color:#cc3300;
+    color:orange;
     padding: 5px;
 }
 
@@ -160,4 +160,45 @@ nav ul li a:active {
     border-radius: 15px;  /*makes border corner circle*/
     /* background: linear-gradient(to top, rgb(255, 45, 45) 50%, white 50%); */
     background-size: 100% 200%;
+}
+
+/* Contack Me */
+
+.contact-me {
+    height: auto;
+    padding: 20px 0px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin: auto; /*puts it in center*/
+    justify-content: center;
+    align-items: center;
+
+}
+
+.input {
+    height: 50px;
+    font-size: 25px;
+    margin-bottom: 15px;
+    width: 600px;
+}
+
+#message {
+    height: 170px;
+    font-size: 25px;
+    margin-bottom: 15px;
+    width: 600px;
+}
+
+#submit {
+    width: 80px;
+    padding: 20px;
+    margin: auto;
+    background-color: orange;
+    color: white;
+    outline: none;
+    text-align: center;
+    cursor: pointer;
 }
